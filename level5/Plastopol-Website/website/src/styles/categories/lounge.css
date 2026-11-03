@@ -1,0 +1,38 @@
+/* Lounge category — deep plum/purple, luxurious */
+[data-category="lounge"] .product-page {
+  background-color: #0d0a1a;
+  color: #e9d5ff;
+}
+[data-category="lounge"] .product-page-header {
+  background: linear-gradient(135deg, #1e1035 0%, #0d0a1a 50%, #2d1060 100%);
+  border-bottom: 1px solid #2d1060;
+}
+[data-category="lounge"] .category-label { color: #c084fc; }
+[data-category="lounge"] .product-page-header h1 { color: #f3e8ff; }
+[data-category="lounge"] .product-page-header p  { color: #c4b5d4; }
+[data-category="lounge"] .product-card-bg { background-color: #1e1035; border-color: #3b1f6e; }
+[data-category="lounge"] .product-card-bg:hover { border-color: #c084fc; box-shadow: 0 10px 40px #c084fc26; }
+[data-category="lounge"] .product-title { color: #f3e8ff; }
+[data-category="lounge"] .product-title:hover { color: #c084fc; }
+[data-category="lounge"] .product-desc { color: #c4b5d4; }
+[data-category="lounge"] .product-meta { color: #9370b8; }
+[data-category="lounge"] .product-accent { color: #c084fc; }
+[data-category="lounge"] .product-detail-bg { background-color: #1e1035; }
+[data-category="lounge"] .product-detail-border { border-color: #3b1f6e; }
+[data-category="lounge"] .product-badge-bg { background-color: #2d1060; color: #d8b4fe; }
+[data-category="lounge"] .product-color-btn { border-color: #3b1f6e; color: #e9d5ff; background: transparent; }
+[data-category="lounge"] .product-enquiry-btn {
+  border: 2px solid #c084fc;
+  color: #c084fc;
+  background: transparent;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.125rem;
+  width: 100%;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+[data-category="lounge"] .product-enquiry-btn:hover { background-color: #2d1060; }
+[data-category="lounge"] .product-spec-bg { background-color: #1e1035; border: 1px solid #3b1f6e; border-radius: 0.75rem; padding: 1.5rem; }
+[data-category="lounge"] .product-spec-key { color: #c084fc; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+[data-category="lounge"] .product-spec-val { color: #f3e8ff; margin-top: 0.25rem; }

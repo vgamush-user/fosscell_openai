@@ -1,0 +1,38 @@
+/* Dining category — warm terracotta, earthy tones */
+[data-category="dining"] .product-page {
+  background-color: #1c0f0a;
+  color: #f5e6d3;
+}
+[data-category="dining"] .product-page-header {
+  background: linear-gradient(135deg, #2d1810 0%, #1c0f0a 50%, #3d2010 100%);
+  border-bottom: 1px solid #3d2010;
+}
+[data-category="dining"] .category-label { color: #f97316; }
+[data-category="dining"] .product-page-header h1 { color: #fef3c7; }
+[data-category="dining"] .product-page-header p  { color: #d6a07a; }
+[data-category="dining"] .product-card-bg { background-color: #2d1810; border-color: #4a2515; }
+[data-category="dining"] .product-card-bg:hover { border-color: #f97316; box-shadow: 0 10px 40px #f9731626; }
+[data-category="dining"] .product-title { color: #fef3c7; }
+[data-category="dining"] .product-title:hover { color: #f97316; }
+[data-category="dining"] .product-desc { color: #d6a07a; }
+[data-category="dining"] .product-meta { color: #a0714f; }
+[data-category="dining"] .product-accent { color: #f97316; }
+[data-category="dining"] .product-detail-bg { background-color: #2d1810; }
+[data-category="dining"] .product-detail-border { border-color: #4a2515; }
+[data-category="dining"] .product-badge-bg { background-color: #3d2010; color: #fdba74; }
+[data-category="dining"] .product-color-btn { border-color: #4a2515; color: #f5e6d3; background: transparent; }
+[data-category="dining"] .product-enquiry-btn {
+  border: 2px solid #f97316;
+  color: #f97316;
+  background: transparent;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.125rem;
+  width: 100%;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+[data-category="dining"] .product-enquiry-btn:hover { background-color: #3d2010; }
+[data-category="dining"] .product-spec-bg { background-color: #2d1810; border: 1px solid #4a2515; border-radius: 0.75rem; padding: 1.5rem; }
+[data-category="dining"] .product-spec-key { color: #f97316; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+[data-category="dining"] .product-spec-val { color: #fef3c7; margin-top: 0.25rem; }

@@ -550,6 +550,106 @@ def _parse_args(argv):
     return data, out
 
 
+# Numerical dataset API required by the Level 1/2 exercises.
+import csv
+import math
+from typing import Iterable, Optional, Union
+
+Number = Union[int, float]
+
+
+class DataProcessor:
+    """Store finite numbers and compute population statistics.
+
+    Batch additions and CSV imports validate every item before changing data.
+    """
+
+    def __init__(self, initial_data: Optional[Iterable[Number]] = None):
+        self.data = []
+        if initial_data is not None:
+            self.batch_add(initial_data)
+
+    @staticmethod
+    def _number(item: Number) -> Number:
+        if isinstance(item, bool) or not isinstance(item, (int, float)):
+            raise TypeError("Expected an int or float (not bool)")
+        if isinstance(item, float) and not math.isfinite(item):
+            raise ValueError("Numbers must be finite")
+        return item
+
+    def _require_data(self):
+        if not self.data:
+            raise ValueError("Dataset is empty")
+
+    def add_data(self, item: Number) -> None:
+        self.data.append(self._number(item))
+
+    def batch_add(self, items: Iterable[Number]) -> None:
+        values = [self._number(item) for item in items]
+        self.data.extend(values)
+
+    def calculate_mean(self) -> float:
+        self._require_data()
+        return math.fsum(self.data) / len(self.data)
+
+    def calculate_median(self) -> float:
+        self._require_data()
+        values = sorted(self.data)
+        middle = len(values) // 2
+        if len(values) % 2:
+            return values[middle]
+        return values[middle - 1] / 2 + values[middle] / 2
+
+    def calculate_variance(self) -> float:
+        mean = self.calculate_mean()
+        return math.fsum((value - mean) ** 2 for value in self.data) / len(self.data)
+
+    def calculate_std_dev(self) -> float:
+        return math.sqrt(self.calculate_variance())
+
+    def get_summary_statistics(self) -> dict:
+        self._require_data()
+        variance = self.calculate_variance()
+        return dict(count=len(self.data), mean=self.calculate_mean(),
+                    median=self.calculate_median(), variance=variance,
+                    std_dev=math.sqrt(variance), min=min(self.data), max=max(self.data))
+
+    def filter_data(self, min_val: Number, max_val: Number) -> list:
+        self._number(min_val)
+        self._number(max_val)
+        if min_val > max_val:
+            raise ValueError("min_val must not exceed max_val")
+        return [value for value in self.data if min_val <= value <= max_val]
+
+    def transform_data(self, factor: Number, offset: Number = 0) -> None:
+        self._number(factor)
+        self._number(offset)
+        values = [self._number(value * factor + offset) for value in self.data]
+        self.data[:] = values
+
+    def export_to_csv(self, filepath: str) -> None:
+        with open(filepath, "w", newline="", encoding="utf-8") as handle:
+            writer = csv.writer(handle)
+            writer.writerow(["value"])
+            writer.writerows([value] for value in self.data)
+
+    def load_from_csv(self, filepath: str) -> None:
+        values = []
+        with open(filepath, newline="", encoding="utf-8") as handle:
+            reader = csv.reader(handle)
+            if next(reader, None) != ["value"]:
+                raise ValueError("CSV must have a single 'value' header")
+            for row in reader:
+                if len(row) != 1:
+                    raise ValueError("Each CSV row must contain one number")
+                try:
+                    value = int(row[0])
+                except ValueError:
+                    value = float(row[0])
+                values.append(self._number(value))
+        self.data[:] = values
+
+
 if __name__ == "__main__":
     main(*_parse_args(sys.argv[1:]))
     sys.exit(0)

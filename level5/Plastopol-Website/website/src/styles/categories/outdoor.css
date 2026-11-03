@@ -1,0 +1,40 @@
+/* Outdoor category — deep forest green, earthy */
+[data-category="outdoor"] .product-page {
+  background-color: #071a0f;
+  color: #d1fae5;
+}
+[data-category="outdoor"] .product-page-header {
+  background: linear-gradient(135deg, #0f2d1a 0%, #071a0f 50%, #0f3320 100%);
+  border-bottom: 1px solid #0f3320;
+}
+[data-category="outdoor"] .category-label { color: #34d399; }
+[data-category="outdoor"] .product-page-header h1 { color: #ecfdf5; }
+[data-category="outdoor"] .product-page-header p  { color: #86c5a0; }
+[data-category="outdoor"] .product-card-bg { background-color: #0f2d1a; border-color: #1a4a2a; }
+[data-category="outdoor"] .product-card-bg:hover { border-color: #34d399; box-shadow: 0 10px 40px #34d39926; }
+[data-category="outdoor"] .product-title { color: #ecfdf5; }
+[data-category="outdoor"] .product-title:hover { color: #34d399; }
+[data-category="outdoor"] .product-desc { color: #86c5a0; }
+[data-category="outdoor"] .product-meta { color: #5a9a72; }
+[data-category="outdoor"] .product-accent { color: #34d399; }
+[data-category="outdoor"] .product-detail-bg { background-color: #0f2d1a; }
+[data-category="outdoor"] .product-detail-border { border-color: #1a4a2a; }
+[data-category="outdoor"] .product-badge-bg { background-color: #0f3320; color: #6ee7b7; }
+[data-category="outdoor"] .product-color-btn { border-color: #1a4a2a; color: #d1fae5; background: transparent; }
+[data-category="outdoor"] .product-color-btn:hover { border-color: #34d399; }
+[data-category="outdoor"] .product-color-btn-active { border-color: #34d399; background-color: #0f3320; color: #d1fae5; }
+[data-category="outdoor"] .product-enquiry-btn {
+  border: 2px solid #34d399;
+  color: #34d399;
+  background: transparent;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.125rem;
+  width: 100%;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+[data-category="outdoor"] .product-enquiry-btn:hover { background-color: #0f3320; }
+[data-category="outdoor"] .product-spec-bg { background-color: #0f2d1a; border: 1px solid #1a4a2a; border-radius: 0.75rem; padding: 1.5rem; }
+[data-category="outdoor"] .product-spec-key { color: #34d399; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+[data-category="outdoor"] .product-spec-val { color: #ecfdf5; margin-top: 0.25rem; }

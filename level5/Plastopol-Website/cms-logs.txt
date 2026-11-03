@@ -1,0 +1,51 @@
+[2026-04-13 20:25:10.353] [INFO] [main] DOMContentLoaded fired
+[2026-04-13 20:25:10.356] [INFO] [main] mounting ConfigModal...
+[2026-04-13 20:25:10.359] [INFO] [main] ConfigModal mounted. state.config: {"repo_path":"D:\\Projects\\Plastopol-Website","default_branch":"main"}
+[2026-04-13 20:25:10.361] [INFO] [Sidebar] renderList — state.products: 0 matches: 0 query: ""
+[2026-04-13 20:25:10.362] [INFO] [main] Sidebar rendered
+[2026-04-13 20:25:10.364] [INFO] [ProductEditor] renderEmpty()
+[2026-04-13 20:25:10.365] [INFO] [main] ProductEditor mounted
+[2026-04-13 20:25:10.367] [INFO] [main] ActionBar rendered
+[2026-04-13 20:25:10.368] [INFO] [main] config already present on startup, repo: D:\Projects\Plastopol-Website
+[2026-04-13 20:25:10.374] [INFO] [loadProducts] called. repoPath: D:\Projects\Plastopol-Website
+[2026-04-13 20:25:10.375] [INFO] [loadProducts] invoking readProducts via Tauri...
+[2026-04-13 20:25:10.376] [INFO] [loadProducts] readProducts returned. raw length: 1066 preview: [
+  {
+    "id": "chair-001",
+    "slug": "ergo-comfort-chair",
+    "modelName": "Ergo Comfort Chair",
+    "status": "active",
+    "colors": [
+ 
+[2026-04-13 20:25:10.378] [INFO] [loadProducts] product count: 1 first item: {"id":"chair-001","slug":"ergo-comfort-chair","modelName":"Ergo Comfort Chair","status":"active","co
+[2026-04-13 20:25:10.380] [INFO] [Sidebar] store notify — products: 1 selectedId: null
+[2026-04-13 20:25:10.381] [INFO] [Sidebar] renderList — state.products: 1 matches: 1 query: ""
+[2026-04-13 20:25:10.383] [INFO] [ProductEditor] store notify — selectedId: null resolved: null
+[2026-04-13 20:25:10.384] [INFO] [ProductEditor] renderEmpty()
+[2026-04-13 20:25:10.385] [INFO] [loadProducts] setProducts done. state.products.length: 1
+[2026-04-13 20:25:13.957] [INFO] [ActionBar] Pull clicked. config: {"repo_path":"D:\\Projects\\Plastopol-Website","default_branch":"main"}
+[2026-04-13 20:25:13.960] [INFO] [ActionBar] calling gitPull(), repo: D:\Projects\Plastopol-Website
+[2026-04-13 20:25:14.364] [INFO] [ActionBar] gitPull() succeeded: Already up to date.
+[2026-04-13 20:25:14.369] [INFO] [main] cms:config-saved received — state.config: {"repo_path":"D:\\Projects\\Plastopol-Website","default_branch":"main"}
+[2026-04-13 20:25:14.372] [INFO] [loadProducts] called. repoPath: D:\Projects\Plastopol-Website
+[2026-04-13 20:25:14.374] [INFO] [loadProducts] invoking readProducts via Tauri...
+[2026-04-13 20:25:14.376] [INFO] [loadProducts] readProducts returned. raw length: 1066 preview: [
+  {
+    "id": "chair-001",
+    "slug": "ergo-comfort-chair",
+    "modelName": "Ergo Comfort Chair",
+    "status": "active",
+    "colors": [
+ 
+[2026-04-13 20:25:14.379] [INFO] [loadProducts] product count: 1 first item: {"id":"chair-001","slug":"ergo-comfort-chair","modelName":"Ergo Comfort Chair","status":"active","co
+[2026-04-13 20:25:14.382] [INFO] [Sidebar] store notify — products: 1 selectedId: null
+[2026-04-13 20:25:14.384] [INFO] [Sidebar] renderList — state.products: 1 matches: 1 query: ""
+[2026-04-13 20:25:14.387] [INFO] [ProductEditor] store notify — selectedId: null resolved: null
+[2026-04-13 20:25:14.390] [INFO] [ProductEditor] renderEmpty()
+[2026-04-13 20:25:14.392] [INFO] [loadProducts] setProducts done. state.products.length: 1
+[2026-04-13 20:25:15.868] [INFO] [Sidebar] row clicked, id: chair-001
+[2026-04-13 20:25:15.875] [INFO] [Sidebar] store notify — products: 1 selectedId: chair-001
+[2026-04-13 20:25:15.878] [INFO] [Sidebar] renderList — state.products: 1 matches: 1 query: ""
+[2026-04-13 20:25:15.881] [INFO] [ProductEditor] store notify — selectedId: chair-001 resolved: Ergo Comfort Chair
+[2026-04-13 20:25:15.885] [INFO] [ProductEditor] renderEditor() — id: chair-001 name: Ergo Comfort Chair
+[2026-04-13 20:25:15.888] [INFO] [ProductEditor] sub-sections found — fields: true lists: true images: true

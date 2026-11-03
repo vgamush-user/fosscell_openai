@@ -1,0 +1,38 @@
+/* Office category — deep navy, cool greys, slate accents */
+[data-category="office"] .product-page {
+  background-color: #0f172a;
+  color: #e2e8f0;
+}
+[data-category="office"] .product-page-header {
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 50%, #1e3a5f 100%);
+  border-bottom: 1px solid #1e3a5f;
+}
+[data-category="office"] .category-label { color: #60a5fa; }
+[data-category="office"] .product-page-header h1 { color: #f1f5f9; }
+[data-category="office"] .product-page-header p  { color: #94a3b8; }
+[data-category="office"] .product-card-bg { background-color: #1e293b; border-color: #334155; }
+[data-category="office"] .product-card-bg:hover { border-color: #60a5fa; box-shadow: 0 10px 40px #60a5fa26; }
+[data-category="office"] .product-title { color: #f1f5f9; }
+[data-category="office"] .product-title:hover { color: #60a5fa; }
+[data-category="office"] .product-desc { color: #94a3b8; }
+[data-category="office"] .product-meta { color: #64748b; }
+[data-category="office"] .product-accent { color: #60a5fa; }
+[data-category="office"] .product-detail-bg { background-color: #1e293b; }
+[data-category="office"] .product-detail-border { border-color: #334155; }
+[data-category="office"] .product-badge-bg { background-color: #1e3a5f; color: #93c5fd; }
+[data-category="office"] .product-color-btn { border-color: #334155; color: #e2e8f0; background: transparent; }
+[data-category="office"] .product-enquiry-btn {
+  border: 2px solid #60a5fa;
+  color: #60a5fa;
+  background: transparent;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.125rem;
+  width: 100%;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+[data-category="office"] .product-enquiry-btn:hover { background-color: #1e3a5f; }
+[data-category="office"] .product-spec-bg { background-color: #1e293b; border: 1px solid #334155; border-radius: 0.75rem; padding: 1.5rem; }
+[data-category="office"] .product-spec-key { color: #60a5fa; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+[data-category="office"] .product-spec-val { color: #e2e8f0; margin-top: 0.25rem; }

@@ -1,0 +1,256 @@
+[
+  {
+    "id": "stl-01",
+    "slug": "stool-01",
+    "modelName": "Stool 01",
+    "status": "active",
+    "colors": [
+      "brown",
+      "rosewood",
+      "blue",
+      "teakwood",
+      "red",
+      "mexican green",
+      "black"
+    ],
+    "description": "Comfortable outdoor stool. What more does one need? Perfect for your garden or balcony.",
+    "features": [
+      "Smooth Rounded",
+      "Child Safe"
+    ],
+    "specifications": [
+      {
+        "key": "Material",
+        "value": "High Quality Plastic"
+      },
+      {
+        "key": "Weight Capacity",
+        "value": "120 kg"
+      },
+      {
+        "key": "Seat Height",
+        "value": "18 inches"
+      }
+    ],
+    "category": "outdoor",
+    "tags": [
+      "ergonomic",
+      "bestseller"
+    ],
+    "images": [
+      "stl-001-01.jpeg",
+      "stl-001-02.jpeg"
+    ],
+    "thumbnail": "stl-001-01.jpeg",
+    "inStock": true,
+    "leadTime": "3-5 days"
+  },
+  {
+    "id": "arml-7001",
+    "slug": "armless-chair-7001",
+    "modelName": "Armless 7001",
+    "status": "active",
+    "colors": [
+      "brown",
+      "red",
+      "blue",
+      "teakwood",
+      "rosewood",
+      "pista green",
+      "mexican green",
+      "white",
+      "black",
+      "leaf green",
+      "orange",
+      "lemon yellow"
+    ],
+    "description": "Ergonomic office chair designed for long working hours with lumbar support and breathable mesh.",
+    "features": [
+      "Smooth Rounded",
+      "Lightweight"
+    ],
+    "specifications": [
+      {
+        "key": "Material",
+        "value": "High Quality Plastic"
+      },
+      {
+        "key": "Weight Capacity",
+        "value": "120 kg"
+      }
+    ],
+    "category": "office",
+    "tags": [
+      "ergonomic",
+      "bestseller"
+    ],
+    "images": [
+      "arml-7001-01.jpeg",
+      "arml-7001-02.jpeg",
+      "arml-7001-03.jpeg"
+    ],
+    "thumbnail": "arml-7001-01.jpeg",
+    "inStock": true,
+    "leadTime": "3-5 days"
+  },
+  {
+    "id": "chr-9001",
+    "slug": "chair-9001",
+    "modelName": "CHR-9001",
+    "status": "active",
+    "colors": [
+      "brown",
+      "rosewood",
+      "teakwood",
+      "red",
+      "black",
+      "coffee black",
+      "white",
+      "marble beige"
+    ],
+    "description": "Ergonomic office chair designed for long working hours with lumbar support and breathable mesh.",
+    "features": [
+      "Smooth Rounded",
+      "Professional Look"
+    ],
+    "specifications": [
+      {
+        "key": "Material",
+        "value": "High Quality Plastic"
+      }
+    ],
+    "category": "office",
+    "tags": [
+      "ergonomic",
+      "bestseller"
+    ],
+    "images": [
+      "chr-9001-01.jpeg"
+    ],
+    "thumbnail": "chr-9001-01.jpeg",
+    "inStock": true,
+    "leadTime": "3-5 days"
+  },
+  {
+    "id": "chr-9002",
+    "slug": "chair-9002",
+    "modelName": "CHR-9002",
+    "status": "active",
+    "colors": [
+      "brown",
+      "rosewood",
+      "teakwood",
+      "red",
+      "black",
+      "coffee black",
+      "white",
+      "marble beige"
+    ],
+    "description": "Ergonomic office chair designed for long working hours with lumbar support and breathable mesh.",
+    "features": [
+      "Smooth Rounded",
+      "Professional Look"
+    ],
+    "specifications": [
+      {
+        "key": "Material",
+        "value": "High Quality Plastic"
+      }
+    ],
+    "category": "office",
+    "tags": [
+      "bestseller"
+    ],
+    "images": [
+      "chr-9002-01.jpeg",
+      "chr-9002-02.jpeg",
+      "chr-9002-03.jpeg"
+    ],
+    "thumbnail": "chr-9002-02.jpeg",
+    "inStock": true,
+    "leadTime": "3-5 days"
+  },
+  {
+    "id": "chr-9003",
+    "slug": "chair-9003",
+    "modelName": "CHR-9003",
+    "status": "active",
+    "colors": [
+      "brown",
+      "rosewood",
+      "teakwood",
+      "red",
+      "black",
+      "coffee black",
+      "white",
+      "marble beige"
+    ],
+    "description": "Ergonomic office chair designed for long working hours with lumbar support and breathable mesh.",
+    "features": [
+      "Smooth Rounded",
+      "Professional Look"
+    ],
+    "specifications": [
+      {
+        "key": "Material",
+        "value": "High Quality Plastic"
+      }
+    ],
+    "category": "lounge",
+    "tags": [
+      "ergonomic"
+    ],
+    "images": [
+      "chr-9003-01.jpeg"
+    ],
+    "thumbnail": "chr-9003-01.jpeg",
+    "inStock": true,
+    "leadTime": "4 days"
+  },
+  {
+    "id": "arml-7002",
+    "slug": "armless-chair-7002",
+    "modelName": "Armless 7001",
+    "status": "active",
+    "colors": [
+      "brown",
+      "red",
+      "blue",
+      "teakwood",
+      "rosewood",
+      "pista green",
+      "mexican green",
+      "white",
+      "black",
+      "leaf green",
+      "orange",
+      "lemon yellow"
+    ],
+    "description": "Ergonomic office chair designed for long working hours with lumbar support and breathable mesh.",
+    "features": [
+      "Smooth Rounded",
+      "Lightweight"
+    ],
+    "specifications": [
+      {
+        "key": "Material",
+        "value": "High Quality Plastic"
+      },
+      {
+        "key": "Weight Capacity",
+        "value": "120 kg"
+      }
+    ],
+    "category": "office",
+    "tags": [
+      "ergonomic",
+      "bestseller"
+    ],
+    "images": [
+      "arml-7002-01.jpeg"
+    ],
+    "thumbnail": "arml-7002-01.jpeg",
+    "inStock": true,
+    "leadTime": "3-5 days"
+  }
+]
