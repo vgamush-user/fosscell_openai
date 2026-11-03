@@ -1,0 +1,8 @@
+PAT.txt
+node_modules/
+.next/
+.vscode/
+.open-next/
+.wrangler/
+website/out/
+website/public/images/products/

@@ -1,0 +1,40 @@
+/* Other category — neutral dark fallback */
+[data-category="other"] .product-page {
+  background-color: #111827;
+  color: #f9fafb;
+}
+[data-category="other"] .product-page-header {
+  background: linear-gradient(135deg, #1f2937 0%, #111827 50%, #1f2937 100%);
+  border-bottom: 1px solid #374151;
+}
+[data-category="other"] .category-label { color: #9ca3af; }
+[data-category="other"] .product-page-header h1 { color: #f9fafb; }
+[data-category="other"] .product-page-header p  { color: #9ca3af; }
+[data-category="other"] .product-card-bg { background-color: #1f2937; border-color: #374151; }
+[data-category="other"] .product-card-bg:hover { border-color: #9ca3af; box-shadow: 0 10px 40px #9ca3af26; }
+[data-category="other"] .product-title { color: #f9fafb; }
+[data-category="other"] .product-title:hover { color: #9ca3af; }
+[data-category="other"] .product-desc { color: #9ca3af; }
+[data-category="other"] .product-meta { color: #6b7280; }
+[data-category="other"] .product-accent { color: #9ca3af; }
+[data-category="other"] .product-detail-bg { background-color: #1f2937; }
+[data-category="other"] .product-detail-border { border-color: #374151; }
+[data-category="other"] .product-badge-bg { background-color: #374151; color: #d1d5db; }
+[data-category="other"] .product-color-btn { border-color: #374151; color: #f9fafb; background: transparent; }
+[data-category="other"] .product-color-btn:hover { border-color: #9ca3af; }
+[data-category="other"] .product-color-btn-active { border-color: #9ca3af; background-color: #374151; color: #f9fafb; }
+[data-category="other"] .product-enquiry-btn {
+  border: 2px solid #9ca3af;
+  color: #9ca3af;
+  background: transparent;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.125rem;
+  width: 100%;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+[data-category="other"] .product-enquiry-btn:hover { background-color: #374151; }
+[data-category="other"] .product-spec-bg { background-color: #1f2937; border: 1px solid #374151; border-radius: 0.75rem; padding: 1.5rem; }
+[data-category="other"] .product-spec-key { color: #9ca3af; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+[data-category="other"] .product-spec-val { color: #f9fafb; margin-top: 0.25rem; }
